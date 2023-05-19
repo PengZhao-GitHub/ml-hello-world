@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Genre Predictor</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Music Genre Predictor</h1>
+    <div class="container">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age">
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="0">Male</option>
+            <option value="1">Female</option>
+        </select>
+
+        <button onclick="predict()">Predict</button>
+
+        <p id="prediction"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
